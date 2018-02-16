@@ -1,5 +1,7 @@
 class Person
   
+  # Writing methods
+  
   def name=(person_name)
     @name = person_name
   end
@@ -7,6 +9,8 @@ class Person
   def job=(person_job)
     @job = person_job
   end
+  
+  # Reading methods
   
     def name 
     @name
